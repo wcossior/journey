@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import maiu from '../../assets/video1.mp4';
+import homeVideo from '../../assets/video1.mp4';
 import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <section className='home'>
       <div className='overlay'></div>
-      <video src={maiu} muted autoPlay loop typeof='video/mp4'></video>
+      <video src={homeVideo} muted autoPlay loop typeof='video/mp4'></video>
 
       <div className="homeContent container">
         <div className="textDiv">
